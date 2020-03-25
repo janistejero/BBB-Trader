@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Account" cloudDestinationProperty="Account" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+  <component type="Container" name="card" cloudDestinationProperty="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="iconContainer" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0" >
+      <layoutConstraint value="North" />
+      <component type="Label" name="profileIconLbl" cloudDestinationProperty="profileIconLbl" text="Profil Picture" verticalAlignment="4" textPosition="3" >
+      </component>
+    </component>
+    <component type="Container" name="dataContainer" cloudDestinationProperty="Container2" layout="TableLayout" tableLayoutRows="5" tableLayoutColumns="2" >
+      <layoutConstraint value="Center" />
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Account Value:" >
+      </component>
+      <component type="Label" name="accountValueLbl" cloudDestinationProperty="accountValueLbl" text="Label" >
+      </component>
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Portfolio Value:" >
+      </component>
+      <component type="Label" name="portfolioValueLbl" cloudDestinationProperty="portfolioValueLbl" text="Label" >
+      </component>
+      <component type="Label" name="Label4" cloudDestinationProperty="Label4" text="Free Funds:" >
+      </component>
+      <component type="Label" name="freeFundsLbl" cloudDestinationProperty="freeFundsLbl" text="Label" >
+      </component>
+      <component type="Label" name="Label6" cloudDestinationProperty="Label6" text="Live Result:" >
+      </component>
+      <component type="Label" name="resultLbl" cloudDestinationProperty="resultLbl" text="Label" >
+      </component>
+    </component>
+  </component>
+</component>
